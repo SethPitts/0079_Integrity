@@ -1,0 +1,12 @@
+COMMENT  This is and IDES check file for CHP_CHC|Check was Created by Seth Pitts on 09MAY2018
+
+REQ-NAME PSAXP79   RETAIN
+FILE-1   PSA       SITE PROT PROJID PROTSEG VISNO
+FILE-2   P79       SITE PROT PROJID PROTSEG VISNO
+
+TEMPBEG
+TEMPEND
+
+N PRISONER1      I Y PSA1  Q if prisoner status inconsistent between forms   BYO
+  Insert code here
+
