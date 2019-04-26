@@ -20,8 +20,9 @@ for req_file_name in checks_in_template:
         comments = comments.drop_duplicates(keep='first')
         comment_template = "COMMENT  {}\n"
         for comment in comments:
-            comment = tf.format_by_charater_length_with_keyword(max_length=50, text=comment, keyword="COMMENT ")
-            req_file.write(comment + "\n")
+            if type(comment) != float:
+                comment = tf.format_by_charater_length_with_keyword(max_length=50, text=comment, keyword="COMMENT ")
+                req_file.write(comment + "\n")
 
         # write new line
         req_file.write("\n")
@@ -69,7 +70,7 @@ for req_file_name in checks_in_template:
         filtered_temp_var_df = temp_var_df[(temp_var_df.FILE_NAME == req_file_name)]  # Filter data frame by check
         filtered_temp_var_df = filtered_temp_var_df.drop_duplicates(subset='VAR_NAME', keep='first')
         req_file.write('TEMPBEG\n')
-        var_template = "{}   {}{}\n"
+        var_template = "{}   {};{}\n"
 
         for idx, var_info in filtered_temp_var_df.iterrows():
             var_name = var_info.loc['VAR_NAME']
@@ -89,11 +90,24 @@ for req_file_name in checks_in_template:
             legal_illegal = var_info.loc['LEGAL_ILLEGAL']
             missing_records = var_info.loc['MISSING_RECORDS']
             error_code = var_info.loc['ERROR_CODE']
+            check_description = var_info.loc['CHECK_DESCRIPTION']
             check_comment = var_info.loc['CHECK_COMMENT']
             padded_spaces_1 = " " * (15 - len(edit_check_name))
             padded_spaces_2 = " " * (50 - len(check_comment))
             padded_spaces_3 = " " * (6 - len(error_code))
             check_type = var_info.loc['TYPE']
+
+            # write main check comment
+            print(check_description)
+            if type(check_description) != float:
+                print(check_description, "in statment")
+                check_description = tf.format_by_charater_length_with_keyword(max_length=50, text=check_description,
+                                                                              keyword="COMMENT ")
+                req_file.write(check_description)
+
+                req_file.write("\n\n")
+
+            # write line 1
             req_file.write(check_line1_template.format(edit_check_def, edit_check_name + padded_spaces_1,
                                                        legal_illegal, missing_records, error_code + padded_spaces_3,
                                                        check_comment + padded_spaces_2, check_type))

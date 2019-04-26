@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3cc476b0-f5f0-4c1a-bd42-788b4be7dacb" name="Default" comment="Adding 0079 Files" />
+    <list default="true" id="3cc476b0-f5f0-4c1a-bd42-788b4be7dacb" name="Default" comment="Adding 0079 Files">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CTN-0079_Integrity_Tracker.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text_formatter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../text_formatter/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../text_formatter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AUTO_Integrity - 0079.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AUTO_Integrity - 0079.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/REQs/PSAXP79.REQ" beforeDir="false" afterPath="$PROJECT_DIR$/REQs/PSAXP79.REQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/REQs/PSAXP80.REQ" beforeDir="false" afterPath="$PROJECT_DIR$/REQs/PSAXP80.REQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Updated_CTN-0079_Integrity_Tracker.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Updated_CTN-0079_Integrity_Tracker.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generate_integrity_query.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate_integrity_query.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +27,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generate_integrity_query.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+            <state relative-caret-position="258">
+              <caret line="93" column="57" lean-forward="true" selection-start-line="93" selection-start-column="57" selection-end-line="93" selection-end-column="57" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text_formatter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -35,7 +61,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -67,6 +93,10 @@
               <item name="AUTO_Integrity - 0079" type="b2602c69:ProjectViewProjectNode" />
               <item name="AUTO_Integrity - 0079" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AUTO_Integrity - 0079" type="b2602c69:ProjectViewProjectNode" />
+              <item name="text_formatter" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -76,7 +106,13 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\NIDADSC\spitts\Python_Projects\AUTO_Integrity - 0079" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -92,17 +128,17 @@
   </component>
   <component name="RunManager" selected="Python.generate_integrity_query">
     <configuration name="generate_integrity_query" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AUTO_Integrity" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Prog\Python3\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generate_integrity_query.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -133,6 +169,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.generate_integrity_query" />
+      <item itemvalue="Python.text_formatter" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.generate_integrity_query" />
@@ -165,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556225296472</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding 0079 Files">
+      <created>1556226610706</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556226610706</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -176,16 +223,17 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3300866" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32913166" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4990099" visible="true" weight="0.32913166" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4990099" weight="0.32913166" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5009901" side_tool="true" weight="0.32913166" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="SVN Repositories" order="12" weight="0.32913166" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -204,8 +252,18 @@
     <entry file="file://$PROJECT_DIR$/../../text_formatter/text_formatter.py" />
     <entry file="file://$PROJECT_DIR$/generate_integrity_query.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        <state relative-caret-position="258">
+          <caret line="93" column="57" lean-forward="true" selection-start-line="93" selection-start-column="57" selection-end-line="93" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text_formatter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>

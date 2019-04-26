@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/AUTO_Integrity - 0079.iml" filepath="$PROJECT_DIR$/.idea/AUTO_Integrity - 0079.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../text_formatter/.idea/text_formatter.iml" filepath="$PROJECT_DIR$/../text_formatter/.idea/text_formatter.iml" />
     </modules>
   </component>
 </project>

@@ -1,5 +1,5 @@
-COMMENT This is and IDES check file for CHP_CHC|Check was Created by
-COMMENT  Seth Pitts on 09MAY2018
+COMMENT This is a comment for the entire req file. If you do not need
+COMMENT  to add a new comment for this check leave blank.
 
 REQ-NAME PSAXP79   RETAIN
 FILE-1   PSA       SITE PROT PROJID PROTSEG VISNO
@@ -9,7 +9,9 @@ TEMPBEG
 TMP001   N0; IF PROT = '0079'
 TEMPEND
 
+COMMENT This is space for a longer comment. If needed and will be specific
+COMMENT  to the check
+
 N PRISONER1      I Y PSA1  Q if prisoner status inconsistent between forms   BYO
-  (CHKILLMS in ('3', '4') OR CHHOWKIL in ('3', '4') OR CHPLNKIL in ('3', '4'))
-    and CHCASMDT = .
+  Insert code here
 
